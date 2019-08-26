@@ -1,0 +1,536 @@
+/* CUSTOM CSS CLASSES*/
+
+/*PLEASE PLACE ALL CUSTOM CSS WITHIN THE DELIMITERS */
+
+
+/*END CUSTOM CSS CLASSES*/
+
+body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	/*background: url(images/bd-bk.gif) repeat-x #ebf0ed;*/
+	background: url(images/bd-bk.gif) #7fd3c2;
+	font-size: 1em;
+	background-position:bottom;
+	background-repeat:repeat-x;
+	background-attachment:fixed;
+	text-align:center;
+	margin:0px auto;
+	padding:0;
+}
+
+html 
+{
+	height: 100%;
+}
+
+li 
+{
+	line-height: 1.5em;
+	margin-left: -10px;
+}
+
+a:hover 
+{
+	text-decoration: none;
+}
+
+.note 
+{
+	color: #FF0000;
+}
+
+.header 
+{
+	background-color: #00a886;
+	padding-left: 10px;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	background-image: url(images/header_bg.gif)
+}
+
+/* Changes */
+.globe
+{
+    width: 200px;
+    height: 100px;
+    border: none;
+    float: right;
+}
+/* /Changes */
+
+h1 
+{
+	color: #000000;
+	font-size: 1.2em;
+}
+
+h2 
+{
+	color: #000000;
+	font-size: 1.6em;
+	margin-top: -5px;	
+}
+
+h3 
+{
+	color: #000000;
+	font-size: 1.5em;
+	margin-bottom: -5px;
+}
+
+h4 
+{
+	color: #000000;
+	font-size: 1.3em;
+}
+
+h5 
+{
+	color: #000000;
+	font-size: 1.2em;
+}
+
+h6 
+{
+	color: #000000;
+	font-size: 1em;
+}
+
+blockquote 
+{
+	background: #7fd3c2;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+}
+
+.normal 
+{
+	font-weight: normal;
+}
+
+.center 
+{
+	text-align: center;
+}
+
+.caption 
+{
+	font-size: 10pt;
+	color: #666666;
+	display: block; /* Change */
+}
+
+.disclaimer 
+{
+	font-size: 10pt;
+	color: #666666;
+}
+
+.discussion 
+{
+	color: #363636;
+	font-style: oblique;
+}
+
+th 
+{
+	background-color: #7fd3c2;
+}
+
+th.tableheading1 
+{
+	background-color: #7fd3c2;
+}
+
+th.tableheading2 
+{
+	background-color: #7fd3c2;
+}
+
+.cellcolour1 
+{
+	background-color: #7fd3c2;
+}
+
+.rowcolour1 
+{
+	background-color: #7fd3c2;
+}
+
+.toolbox 
+{
+	border-color: #00a886;
+	border-width: 2px;
+	border-style: dashed;
+	padding: 10px;
+	
+}
+
+.dropbox 
+{
+	background-color: #bfe9e1;
+	border-color: #00a886;
+	border-width: 1px;
+	border-style: dashed;
+	padding: 10px;
+	
+}
+
+.overview 
+{
+	background-color: #7fd3c2;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 2% 5% 2% 5%;
+}
+
+.colourbox1 
+{
+	background-color: #7fd3c2;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 2% 5% 2% 5%;
+}
+
+.colourbox2 
+{
+	background-color: #7fd3c2;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 2% 5% 2% 5%;
+}
+
+.colourbox3 
+{
+	background-color: #bfe9e1;
+	border-color: #00a886;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 2% 5% 2% 5%;
+}
+
+.colourbox4 
+{
+	background-color: #e5f6f3;
+	border-color: #00a886;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 2% 5% 2% 5%;
+}
+
+.expectations 
+{
+	background-color: #7fd3c2;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 2% 5% 2% 5%;
+}
+
+.answers 
+{
+	background-color: #bfe9e1;
+	border-color: #00a886;
+	border-width: 1px;
+	border-style: solid;
+	padding: 0px; /* Change */
+	vertical-align: top; /* Change */
+    width: 100%; /* Change */
+}
+
+/* Changes */
+.answers th
+{
+    background-color: #bfe9e1;
+    vertical-align: top;
+    width: 5%;
+}
+
+.answers td
+{
+	background-color: #bfe9e1;
+    vertical-align: top;
+    width: 95%;
+}
+/* /Changes */
+
+.questions 
+{
+	background-color: #bfe9e1;
+	border-color: #00a886;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+}
+
+/* Changes */
+.quest
+{
+    width: 100%;
+    background-color: White;
+}
+
+.quest th
+{
+    width: 5%;
+    vertical-align: top;
+    background-color: White;
+}
+
+.quest td
+{
+    width: 95%;
+    vertical-align: top;
+    background-color: White;
+}
+/* /Changes */
+
+hr 
+{
+	border: 0;
+	color: #818181;
+	background-color: #7fd3c2;
+	height: 1px;
+	width: 100%;
+	text-align: left;
+}
+
+.subNav 
+{
+	background-color: #ebebeb;
+	padding: 10px;
+	font-size: 0.75em;
+}
+
+.tableRubric 
+{
+	font-size: 0.75em;
+	width: 95%; /* Change */
+	border-collapse: collapse; /* Change */
+}
+
+/* Changes */
+.rubricTH
+{
+    text-align: center;
+    vertical-align: top;
+	padding: 6px;
+	border: solid 1px black;
+}
+
+.tdAltRubric, .tableRubric td
+{
+    text-align: left;
+    vertical-align: top;
+	padding: 6px;
+	border: solid 1px black;
+}
+/* /Changes */
+
+.courseTitle 
+{
+	color: #000000;
+	font-size: 0.70em;
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+.navbuttons 
+{
+	font-weight:bold;
+	color: #999999;
+	text-align: center;
+}
+
+.definition 
+{ 
+	color:#0099FF; 
+	text-decoration: underline; 
+}
+	
+.border
+{
+	border: solid 2px #000000;
+}
+
+.citation
+{
+    font-size:10pt;
+    text-align:right;
+}
+
+table.stopsign 
+{
+	width: 85%;
+	border: double 3px #9db6a5;
+	border-collapse: collapse;
+	/*background-color:#FFFFFF;*/
+	margin-left:auto; 
+	margin-right:auto;
+}
+
+/* Changes */
+table.stopsign th
+{
+	width: 58px;
+	vertical-align:top;
+	border: double 3px #9db6a5;
+	padding:10px;
+	font-weight: normal;
+	background-color: White;
+}
+
+table.stopsign td
+{
+    width: 614px;
+	vertical-align:top;
+	border: double 3px #9db6a5;
+	padding:10px;
+}
+/* /Changes */
+
+table.journal, table.rubric, table.requiredreading, table.quiz, table.externallink, table.enrichment, table.didyouknow, table.mmetable, table.assignmentlink, table.quiz
+{
+	width: 85%;
+	border: double 3px #00a886;
+	border-collapse: collapse;
+	background-color:#7fd3c2;
+	margin: 0px auto 0px auto; /* Change */
+}
+
+/* Changes */
+table.journal th, table.rubric th, table.requiredreading th, table.externallink th,table.enrichment th, table.didyouknow th, table.mmetable th, table.assignmentlink th, table.quiz th
+{
+	border: double 3px #00a886;
+	padding: 10px;
+	vertical-align: top;
+	width: 5%;
+	font-weight: normal;
+}
+/* /Changes */
+
+table.journal td, table.rubric td, table.requiredreading td, table.externallink td,table.enrichment td, table.didyouknow td, table.mmetable td, table.assignmentlink td, table.quiz td
+{
+	border: double 3px #00a886;
+	padding: 10px;
+	vertical-align: top;
+	width: 95%; /* Change */
+}
+
+.wrap 
+{
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	padding-top:5px;
+	margin:0 auto;
+	width:730px;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+}
+
+span.sndLink 
+{
+	color: #0000ff;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.rubrictable
+{
+	width: 95%;
+	border: solid 1px #000;
+	border-collapse: collapse;
+	font-size: 0.75em;
+}
+
+.rubrictable td, .rubrictable th
+{
+	border: solid 1px #000;
+	padding: 6px;
+}
+
+.chat 
+{
+	background: #7fd3c2;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	font-style: oblique;
+	margin: 14px; /* Change */
+}
+
+/* Changes */
+.icon
+{
+    height: 42px;
+    width: 42px;
+    border: none;
+}
+
+.picturetable
+{
+    border: none;
+    border-collapse: collapse;
+    margin: 18px 0px 18px 0px;
+}
+
+.picturetable td
+{
+    vertical-align: middle;
+}
+
+.picturetable th
+{
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    font-weight: normal;
+}
+
+.superscript { 
+
+	font-size:9pt;
+	vertical-align: super;
+} 
+
+.subscript { 
+	font-size:9pt;
+	vertical-align: sub; 
+}
+
+table.internaltable {
+border:none;
+}
+
+table.internaltable td {
+border:none;
+}
+
+.wiki
+{ 
+    border-color: #4e8636; 
+    border-width: 2px; 
+    border-style: dashed;
+    background-color:#edf3eb; 
+    padding: 10px; 
+     
+}
+/* /Changes */
